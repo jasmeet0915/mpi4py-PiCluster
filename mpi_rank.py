@@ -1,3 +1,5 @@
+# Code for getting rank of each process, size of cluster and names of the cores running each process
+
 from mpi4py import MPI
 
 comm = MPI.COMM_WORLD

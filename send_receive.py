@@ -1,3 +1,5 @@
+# Code for sending messages from one process to another which is a fundamental requirement in parallel computing
+
 from mpi4py import MPI
 
 comm = MPI.COMM_WORLD
